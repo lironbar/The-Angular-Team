@@ -3,7 +3,7 @@
 angular.module('app').
 controller('booksListCtrl', ['$scope','$window', 'books', function($scope, $window, books) {
 
-  var divs = $('#main-title, #main-heading, #main-line');
+  var divs = $('#titleSm, #titleLg, #titleMd');
   $(window).on('scroll', function () {
     var st = $(this).scrollTop();
     divs.css({ 'opacity' : (1 - st/350) });
