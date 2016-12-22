@@ -17,9 +17,4 @@ npm start
 
 ```
 
-Now browse to the app at `http://localhost:8000`.
-
-
-
-**note:**
-On newer versions of Chrome, geolocation needs the server to use HTTPS.
+Now browse to the app at `http://localhost:8080`.
